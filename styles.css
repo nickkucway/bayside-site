@@ -106,3 +106,8 @@ body {
   .page-title{
     padding: 50px;
   }
+
+  .head-hero{
+    background-color: #363245;
+    color: white;
+  }
