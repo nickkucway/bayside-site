@@ -10,7 +10,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
     color: #5a5a5a;
   }
   
@@ -111,3 +111,25 @@ body {
     background-color: #363245;
     color: white;
   }
+
+  footer{
+    background-color: #363245;
+    color: white;
+    padding: 15px;
+  }
+
+  footer a{
+    color: white;
+    text-decoration: none;
+    margin-right:15px;
+    font-size: 22px;
+    
+  }
+  footer a:hover{
+    text-decoration: underline;
+  }
+  .footer-content{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
