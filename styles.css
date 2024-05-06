@@ -12,7 +12,18 @@
 body {
     /* padding-bottom: 3rem; */
     color: #5a5a5a;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
   
   
   /* CUSTOMIZE THE CAROUSEL
@@ -165,4 +176,15 @@ body {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+.transition-img{
+  animation: image-transition linear;
+  animation-timeline: view();
+  animation-range-start: cover;
+  animation-range-end: 700px;
+}
+
+@keyframes image-transition{
+  from {padding-top: 100px; opacity: .5;}
+  to {padding-top: 0px; opacity: 1;}
 }
