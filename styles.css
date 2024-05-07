@@ -12,18 +12,7 @@
 body {
     /* padding-bottom: 3rem; */
     color: #5a5a5a;
-    animation: fadeInAnimation ease 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
   }
-  @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
   
   
   /* CUSTOMIZE THE CAROUSEL
@@ -132,15 +121,13 @@ body {
   footer a{
     color: white;
     text-decoration: none;
-    margin-right:15px;
-    font-size: 22px;
-    
+    margin-right:15px;    
   }
   footer a:hover{
     text-decoration: underline;
   }
   .footer-content{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     align-content: center;
   }
@@ -185,6 +172,22 @@ body {
 }
 
 @keyframes image-transition{
-  from {padding-top: 200px; opacity: .5;}
+  from {padding-top: 200px; opacity: 0;}
   to {padding-top: 0px; opacity: 1;}
 }
+
+main {
+  /* padding-bottom: 3rem; */
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+

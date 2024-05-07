@@ -14,23 +14,27 @@
     <link href="../styles.css" rel="stylesheet">
   </head>
   <body>
-    <main>
-      <div class="container">
-          <header class="d-flex flex-wrap justify-content-center py-3">
-              <a href="../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-              <img class="logo-nav" src="../img/Bayside-Logo_Header.png"/>
-              </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img class="logo-nav" src="../img/Bayside-Logo_Header.png"/>
 
-              <ul class="nav nav-pills">
-                <li class="nav-item"><a href="../index.html" class="nav-link" >Home</a></li>
-                <li class="nav-item"><a href="../about/index.html" class="nav-link" >About</a></li>
-                <li class="nav-item"><a href="../services/index.html" class="nav-link" aria-current="page">Services</a></li>
-                <li class="nav-item"><a href="../apply/index.html" class="nav-link">Apply</a></li>
-                <li class="nav-item"><a href="../contact/index.html" class="nav-link active" aria-current="page">Contact</a></li>
-
-              </ul>
-          </header>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a href="../index.html" class="nav-link">Home</a>
+            <a href="../about/index.html" class="nav-link">About</a>
+            <a href="../services/index.html" class="nav-link">Services</a>
+            <a href="../apply/index.html" class="nav-link">Apply</a>
+            <a href="../contact/index.html" class="nav-link active" aria-current="page">Contact</a>
+          </div>
+        </div>
       </div>
+    </nav>
+    <main>
       <article class="headsection">
         <h1>Contact</h1>
       </article>
