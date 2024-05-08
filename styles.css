@@ -198,3 +198,76 @@ main {
   }
 }
 
+@media(max-width: 600px){
+  .footer-content{
+    text-align: center;
+  }
+}
+
+.placeholder-div{
+  width: 100%;
+  background-color: #363245;
+  color:white;
+  font-size: 26px;
+  text-align: center;
+  padding: 20vh;
+}
+.navbar{
+  animation: navSize linear;
+  animation-timeline: view();
+  animation-range-start: 0px;
+  animation-range-end: 25px;
+}
+
+@keyframes navSize {
+  from {
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+
+  }
+  to {
+    padding-top: 20vh;
+    padding-bottom: 20vh;  }
+}
+
+.right-align-card{
+  display: flex;
+  margin: 25px 0px;
+  flex: 0 50%;
+
+}
+
+
+.right-align-card .placeholder-div{
+  margin-right: 10px;
+  width: 50%;
+}
+
+.left-align-card{
+  display: flex;
+  margin: 25px 0px;
+  flex: 0 50%;
+
+
+
+}
+
+.left-align-card .placeholder-div{
+  margin-left: 10px;
+  width: 50%;
+}
+
+@media(max-width: 800px){
+  .right-align-card{
+    flex-direction: column;
+  }
+  .left-align-card{
+    flex-direction: column-reverse;
+  }
+  .right-align-card .placeholder-div{
+    width: 100%;
+  }
+  .left-align-card .placeholder-div{
+    width: 100%;
+  }
+}
