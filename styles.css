@@ -297,3 +297,23 @@ main {
   padding: 10px;
   text-align: center;
 }
+
+.btn-red{
+  border: none;
+  background-color: #c63b3d;
+}
+.btn-red:hover{
+  background-color: #a02325;
+}
+
+.nav-button{
+  width: 200px;
+  margin: 0px 15px;
+}
+
+@media(max-width: 990px){
+  .nav-button{
+    width: 100%;
+    margin: 5px auto;
+  }
+}
