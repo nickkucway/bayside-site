@@ -333,3 +333,12 @@ main {
 .headsection h1{
   text-shadow: 1px 1px 10px black;
 }
+
+.contact-block a{
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+.contact-block a:hover{
+  font-weight: 600;
+}
