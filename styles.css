@@ -80,6 +80,10 @@ body {
     /* rtl:remove */
     letter-spacing: -.05rem;
   }
+  .equip_list{
+    min-width: 50%
+
+  }
   
   
   /* RESPONSIVE CSS
