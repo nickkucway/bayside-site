@@ -343,3 +343,18 @@ main {
 .contact-block a:hover{
   font-weight: 600;
 }
+
+p{
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.col-lg-3 p{
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.services p{
+  line-height: 24px;
+}
+
