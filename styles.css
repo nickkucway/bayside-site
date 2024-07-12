@@ -368,3 +368,6 @@ p{
 .certs a:hover{
   font-weight: 500;
 }
+.coming-soon{
+  min-height: 75vh;
+}
